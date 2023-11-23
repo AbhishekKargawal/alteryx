@@ -1,10 +1,8 @@
+Following our recent conversation, I have implemented the following changes:
 
-As discuss in our last call, I have made the following changes:
--	Applied anomaly detection algorithm on youth account (First Saver and Card Plus) using transaction type as feature.
--	Added logic to calculate customer age.
--	Added power bi dashboard where you can see anomaly marked customer and their monthly view.
+Applied an anomaly detection algorithm to youth accounts (First Saver and Card Plus), utilizing transaction type as a feature.
+Incorporated logic to calculate customer age.
+Developed a Power BI dashboard that highlights customers marked as anomalies, providing a monthly overview.
+If you have any questions or require further clarification regarding the dashboard, please feel free to reach out.
 
-Let me know if you have question around dashboard.
-
-Thanks, 
-
+Thank you,
