@@ -1,5 +1,5 @@
 Income Forecast
-- Use forecast model to predict total rolling income for next 3 month for personal customers.
+- Utilize advanced forecasting models to anticipate the total rolling income for the upcoming three months among personal customers. 
 
 Data Source
 - ODW
@@ -15,8 +15,8 @@ Filters
 - GLCODEEXTERNAL is 13 or 22
 
 Machine Learning Models
-- ARIMA
-- SARIMA
+ARIMA (AutoRegressive Integrated Moving Average)
+SARIMA (Seasonal AutoRegressive Integrated Moving Average)
 
 Approach
-- All the customer's total rolling income(last 5 years) is grouped on monthly level. The grouped data is later passed to different time series models to best fit the data. Based on accuracy best model is picked to predict next 3 months total rolling income.
+- The approach involves aggregating the total rolling income for all customers over the past five years on a monthly basis. This grouped data is then subjected to various time series models, including ARIMA and SARIMA, to identify the most accurate fit. The model with the highest accuracy is selected to forecast the total rolling income for the next three months.
